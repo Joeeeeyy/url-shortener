@@ -1,0 +1,32 @@
+{
+  "name": "url-shortii",
+  "version": "1.0.0",
+  "description": "FCC URL Shortener Project for APIs and Microservices Certification",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodedemon server.js"
+  },
+  "keywords": [
+    "node.js",
+    "npm",
+    "mongoose",
+    "mongodb",
+    "url-shortener",
+    "fcc",
+    "apis and microservices",
+    "certification"
+  ],
+  "author": "Jose Guillermo Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.15",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  }
+}
